@@ -68,7 +68,9 @@ To interact with the Sketchfab API, the plugin requires your unique API key:
 
 <br>
 
-## Important Notes & Troubleshooting
+## Limitations & Notes
+
+- **Materials Assignment Limitations:** You will have to manually replace the auto-generated default materials with the plugin generated ones, the names will be same (with .1 or .2 at the end because it's copy) so easy to replace.
 
 - **C4D glTF Import Bug (Empty Materials)**: Some versions of Cinema 4D (like 2024.4) have a native bug where default materials in glTF/GLB files fail to import, leaving meshes with empty material tags.
 
