@@ -12,7 +12,7 @@ The official importer from Sketchfab already exists but it doesn't do everything
 
 <br>
 <h3 align="center">
-  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink_c4d"><u>GUMROAD</u></a> ✦
+  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
 </h3>
 <br>
 
@@ -98,6 +98,6 @@ See `LICENSE` for details.
 ---
 <br>
 <h3 align="center">
-  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink_c4d"><u>GUMROAD</u></a> ✦
+  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
 </h3>
 <br>
