@@ -31,7 +31,15 @@ The official importer from Sketchfab already exists but it doesn't do everything
 
   - Automatically handles packed channels (such as glTF's packed `metallicRoughness` map) using splitters and channel pickers.
 
+  <p align="left">
+    <img src="images/nodes.jpg" alt="FabLink Nodes"/>
+  </p>
+
 - **Asset Pipeline Organization**: Extract and organize downloaded assets cleanly in your active C4D project's `assets/` directory (or a custom path) with textures moved to a unified `/textures` directory and glTF paths updated relatively.
+
+  <p align="left">
+    <img src="images/folder_setup.jpg" alt="FabLink Folder Setup"/>
+  </p>
 
 - **Responsive Background Worker**: Downloading and extracting operations are run on a background thread. The dialog remains completely active and responsive, showing live progress and logs.
 
@@ -71,6 +79,10 @@ To interact with the Sketchfab API, the plugin requires your unique API key:
 ## Limitations & Notes
 
 - **Materials Assignment Limitations:** You will have to manually replace the auto-generated default materials with the plugin generated ones, the names will be same (with .1 or .2 at the end because it's copy) so easy to replace.
+
+  <p align="left">
+    <img src="images/mat_replacement.gif" alt="FabLink Mat Replacement"/>
+  </p>
 
 - **C4D glTF Import Bug (Empty Materials)**: Some versions of Cinema 4D (like 2024.4) have a native bug where default materials in glTF/GLB files fail to import, leaving meshes with empty material tags.
 
