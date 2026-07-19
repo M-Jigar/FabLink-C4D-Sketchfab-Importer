@@ -49,15 +49,13 @@ The official importer from Sketchfab already exists but it doesn't do everything
 
 ## Installation
 
-1. Purchase and download the plugin from [Gumroad](https://oblvyn.gumroad.com/l/fablink_c4d).
-
-2. Extract the downloaded zip into your Cinema 4D plugins folder:
+1. Extract the downloaded zip into your Cinema 4D plugins folder:
 
     e.g., `C:\Program Files\Maxon Cinema 4D <your_version>\plugins\`
 
-3. Restart Cinema 4D.
+1. Restart Cinema 4D.
 
-4. Run the plugin from:
+1. Run the plugin from:
 
     `Extensions > FabLink`
 
