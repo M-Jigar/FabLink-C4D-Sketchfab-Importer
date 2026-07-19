@@ -12,7 +12,7 @@ The official importer from Sketchfab already exists but it doesn't do everything
 
 <br>
 <h3 align="center">
-  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
+  ✦ Purchase at → <a href="https://payhip.com/b/gLSRB"><u>PAYHIP</u></a> | <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
 </h3>
 <br>
 
@@ -112,6 +112,6 @@ See `LICENSE` for details.
 ---
 <br>
 <h3 align="center">
-  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
+  ✦ Purchase at → <a href="https://payhip.com/b/gLSRB"><u>PAYHIP</u></a> | <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
 </h3>
 <br>
