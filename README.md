@@ -15,13 +15,20 @@ The official importer from Sketchfab already exists but it doesn't do everything
   ✦ Purchase at → <a href="https://payhip.com/b/gLSRB"><u>PAYHIP</u></a> | <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
 </h3>
 <br>
-
-## Features
+<br>
 
 <p align="center">
-  <img src="images/dialog_A.png" alt="FabLink Dialog A" height=300/>
-  <img src="images/dialog_B.png" alt="FabLink Dialog B" height=300/>
+  <!-- <img src="images/dialog_A.png" alt="FabLink Dialog A" height=300/> -->
+  <img src="images/dialog_B.png" alt="FabLink Dialog B" height=800/>
 </p>
+
+<br>
+<h3 align="center">
+  Watch A Short Demo On → <a href="https://www.youtube.com/watch?v=ukVFGj5rBCY"><u>YOUTUBE</u></a>
+</h3>
+<br>
+
+## Features
 
 - **Direct URL Input & Details Fetching**: Paste any Sketchfab model URL to instantly preview key details (Name, Size, Formats, Materials, Textures, Triangles, License, and Author) before starting your download.
 
@@ -108,6 +115,6 @@ See `LICENSE` for details.
 ---
 <br>
 <h3 align="center">
-  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink_c4d"><u>GUMROAD</u></a> ✦
+  ✦ Purchase at → <a href="https://payhip.com/b/gLSRB"><u>PAYHIP</u></a> | <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
 </h3>
-<br>
+<br
