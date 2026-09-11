@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="res/banner.png" alt="FabLink Banner" width=450/>
+  <img src="images/banner.png" alt="FabLink Banner" width=450/>
 </p>
 
 # FabLink
