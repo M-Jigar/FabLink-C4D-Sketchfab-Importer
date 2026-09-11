@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.png" alt="FabLink Banner" width=450/>
+  <img src="res/banner.png" alt="FabLink Banner" width=450/>
 </p>
 
 # FabLink
@@ -38,12 +38,14 @@ The official importer from Sketchfab already exists but it doesn't do everything
 - **Asset Pipeline Organization**: Extract and organize downloaded assets cleanly in your active C4D project's `assets/` directory (or a custom path) with textures moved to a unified `/textures` directory and glTF paths updated relatively.
 
   <p align="left">
-    <img src="images/folder_setup.jpg" alt="FabLink Folder Setup"/>
-  </p>
+      <img src="images/folder_setup.jpg" alt="FabLink Folder Setup"/>
+    </p>
+
+- **Inbuilt Texture Resizer**: Easily downscale high resolution textures on the go with 1K, 2K presets or a custom resolution input, helping you in keeping your scenes optimized. *(Powered by [ImageMagick](https://github.com/imagemagick/imagemagick))*
 
 - **Responsive Background Worker**: Downloading and extracting operations are run on a background thread. The dialog remains completely active and responsive, showing live progress and logs.
 
-- **Smart Conflict Handling**: Warns you if an asset has already been imported, giving you options to "Import Existing" or "Download (overwrite)".
+- **Smart Conflict Handling**: Warns you if an asset has already been imported, giving you options to import or overwrite only the existing mesh file or overwrite both mesh and textures.
 
 <br>
 
@@ -61,6 +63,8 @@ The official importer from Sketchfab already exists but it doesn't do everything
 
 *(Tip: To quickly access FabLink, open the Command Manager using `Shift + F12`, search for `FabLink`, and drag-and-drop it directly into your layout).*
 
+**NOTE: A portable executable of ImageMagick will already be provided with the plugin but if by any chance its missing you can manually download it from [HERE](https://imagemagick.org/download) and paste the `magick.exe` into `./bin/ImageMagick/`. Without it the textures resizing feature won't work.**
+
 <br>
 
 ## First Run (API Key Setup)
@@ -75,12 +79,6 @@ To interact with the Sketchfab API, the plugin requires your unique API key:
 <br>
 
 ## Limitations & Notes
-
-- **Materials Assignment Limitations:** You will have to manually replace the auto-generated default materials with the plugin generated ones, the names will be same (with .1 or .2 at the end because it's copy) so easy to replace.
-
-  <p align="left">
-    <img src="images/mat_replacement.gif" alt="FabLink Mat Replacement"/>
-  </p>
 
 - **C4D glTF Import Bug (Empty Materials)**: Some versions of Cinema 4D (like 2024.4) have a native bug where default materials in glTF/GLB files fail to import, leaving meshes with empty material tags.
 
@@ -110,6 +108,6 @@ See `LICENSE` for details.
 ---
 <br>
 <h3 align="center">
-  ✦ Purchase at → <a href="https://payhip.com/b/gLSRB"><u>PAYHIP</u></a> | <a href="https://oblvyn.gumroad.com/l/fablink"><u>GUMROAD</u></a> ✦
+  ✦ Available on → <a href="https://oblvyn.gumroad.com/l/fablink_c4d"><u>GUMROAD</u></a> ✦
 </h3>
 <br>
